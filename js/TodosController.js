@@ -14,6 +14,7 @@ angular
     $scope.deleteTodo = deleteTodo;
     $scope.completedTodos = completedTodos;
     $scope.remainingTodos = remainingTodos;
+    $scope.editing = false;
 
     //function that allows us to add new todos to our todoList
     function addTodo(){
